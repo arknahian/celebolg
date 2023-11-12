@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    padding: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icons li{
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+.logo{
+    margin-top: 2px;
+    margin-left: 5px;
+}
