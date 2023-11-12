@@ -1,0 +1,32 @@
+.container {
+    margin: 0 10px;
+}
+
+.thumb img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.thumb {
+    /* width: 340px; */
+    /* height: 432px; */
+    margin-bottom: -67px;
+}
+
+.description h3 {
+    font-weight: 400;
+    color: white;
+}
+
+.buttons span {
+    margin-right: 20px;
+    color: white;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.description{
+    margin-left: 6px;
+}

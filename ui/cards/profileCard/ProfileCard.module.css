@@ -1,0 +1,45 @@
+.desc {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-image: linear-gradient(transparent, #000);
+    position: relative;
+}
+
+.dp {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.dp img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    color: white;
+}
+
+.profile h4 {
+    margin-bottom: 3px;
+    font-weight: 500;
+    display: flex;
+}
+
+.profile h4 span {
+    margin-left: 5px;
+}
+
+.profile p {
+    font-size: 13px;
+}
+
+.dp {
+    margin-right: 10px;
+}
+
+.cover {
+    margin-bottom: -67px;
+}

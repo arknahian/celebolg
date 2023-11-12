@@ -28,7 +28,45 @@ body,
     font-size: 13px;
 }
 
-.link{
+.link {
     color: inherit;
     text-decoration: inherit;
+}
+
+.cardLink {
+    color: var(--secondary-text);
+    text-decoration: underline;
+}
+
+.secondaryCardLink {
+    color: white;
+}
+
+.outlined-button {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 14px 43px;
+    text-align: center;
+    transition: all 300ms;
+    width: max-content;
+}
+
+.secondary-outlined-button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 24px;
+    text-align: center;
+    transition: all 300ms;
+    width: max-content;
+    color: white;
+}
+
+.outlined-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.secondary-outlined-button:hover {
+    background-color: white;
+    color: black;
 }

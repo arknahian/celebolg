@@ -1,0 +1,22 @@
+.thumb img {
+    object-fit: cover;
+    width: 100%;
+}
+.thumb {
+    width: 340px;
+    height: 432px;
+    overflow: hidden;
+    margin-bottom: 11px;
+}
+
+.description h3 {
+    font-weight: 400;
+}
+
+.buttons span {
+    margin-right: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}

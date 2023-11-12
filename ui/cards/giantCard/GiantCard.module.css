@@ -1,0 +1,22 @@
+.desc h3 {
+    font-weight: 500;
+}
+
+.desc p {
+    margin-top: 10px;
+    color: var(--secondary-text);
+}
+
+.desc {
+    margin-top: 6px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.buttons div {
+    margin-right: 30px;
+}
