@@ -13,7 +13,7 @@ body,
 :root {
     --primary-color: #000000;
     --secondary-color: #3a3a3a;
-    --border: #e0e0e0;
+    --border: #e7e7e7;
     --secondary-text: #585858;
     --icon: rgb(64, 64, 64);
 }
@@ -59,6 +59,8 @@ body,
     transition: all 300ms;
     width: max-content;
     color: white;
+    background-color: transparent;
+    outline: none;
 }
 
 .outlined-button:hover {
@@ -69,4 +71,13 @@ body,
 .secondary-outlined-button:hover {
     background-color: white;
     color: black;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #f1f1f1 !important;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #f1f1f1 !important;
 }

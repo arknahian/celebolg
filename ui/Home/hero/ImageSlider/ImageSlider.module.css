@@ -1,0 +1,34 @@
+.container {
+    height: 100%
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 9%;
+}
+
+.description {
+    margin-top: -110px;
+    background-image: linear-gradient(transparent, #000);
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 1px #000;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.description h1 {
+    margin-bottom: 17px;
+}
+
+.description p {
+    margin-bottom: 32px;
+}
+
+.description button {
+    margin-bottom: 59px;
+}
+

@@ -1,9 +1,13 @@
+.container {
+    width: 100%;
+}
+
 .desc {
     display: flex;
     align-items: center;
-    margin-left: 10px;
     background-image: linear-gradient(transparent, #000);
     position: relative;
+    padding: 6px 12px;
 }
 
 .dp {
@@ -42,4 +46,10 @@
 
 .cover {
     margin-bottom: -67px;
+    width: 100%;
+}
+
+.cover img{
+    width: 100%;
+    object-fit: cover;
 }

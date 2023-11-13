@@ -1,20 +1,22 @@
-
-import PrimaryCard from "./../ui/cards/primaryCard/PrimaryCard";
 import styles from './page.module.css';
-import SecondaryCard from "./../ui/cards/secondaryCard/SecondaryCard";
-import GiantCard from "./../ui/cards/giantCard/GiantCard";
-import ProductCard from "./../ui/cards/ProductCard/ProductCard";
-import ProfileCard from "./../ui/cards/profileCard/ProfileCard";
-import StoreCard from "./../ui/cards/storeCard/StoreCard";
-import FeedCard from "./../ui/cards/FeedCard/FeedCard";
+import Hero from "./../ui/Home/hero/Hero";
+import PrimaryCardContainer from "../ui/Home/PrimaryCardContainer/PrimaryCardContainer";
+import GiantCardContainer from "./../ui/Home/GiantCardContainer/GiantCardContainer";
+import Trending from "./../ui/Home/Trending/Trending";
+import TopPost from "./../ui/Home/TopPost/TopPost";
+import TopStore from "./../ui/Home/TopStore/TopStore";
 
 const HomePage = () => {
   return (
-    <div className={styles.test}>
-      <FeedCard></FeedCard>
-      <FeedCard></FeedCard>
-      <FeedCard></FeedCard>
-      <FeedCard></FeedCard>
+    <div className={styles.interface}>
+      <Hero />
+      <section className={styles.container}>
+        <PrimaryCardContainer />
+        <GiantCardContainer></GiantCardContainer>
+        <Trending></Trending>
+        <TopPost></TopPost>
+        <TopStore></TopStore>
+      </section>
     </div>
   );
 };

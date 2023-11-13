@@ -1,8 +1,14 @@
+.header{
+    background: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: red; */
     width: 100%;
     border-bottom: 1px solid var(--border);
     padding: 5px;
@@ -12,12 +18,25 @@
     display: flex;
     align-items: center;
 }
-.icons li{
+
+.icons li {
     list-style-type: none;
     margin-right: 25px;
 }
 
-.logo{
+.logo {
     margin-top: 2px;
     margin-left: 5px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    border: 1px solid var(--border);
+}
+
+.nav li{
+    list-style-type: none;
+    margin-right: 44px;
+    margin-left: 4px;
 }
